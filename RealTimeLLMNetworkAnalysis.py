@@ -6,9 +6,9 @@ from openai import OpenAI
 
 # Ensure you have the OpenAI library installed: pip install openai
 # Make sure to set your OpenAI API key in your environment variables or directly in the script
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='your_api')
 
-log_file_path = '//Users/ferdinandpaul/Documents/get_log/logs5'  # Update this path as needed
+log_file_path = 'your_path'  # Update this path as needed
 
 domain_category_cache = {}  # Cache for domain categories to minimize API requests
 query_count_cache = {}  # Cache for counting domain queries
